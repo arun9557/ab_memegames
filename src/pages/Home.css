@@ -1,0 +1,157 @@
+.home-container {
+    background-color: #ffffff;
+    color: #000;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.8rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links a {
+    margin-left: 2rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+.hero-section {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0;
+    background: linear-gradient(to right, #000, #444);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Card Styles */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.card-content h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+
+.card-content p {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.play-btn,
+.join-btn {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 99px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: transform 0.2s;
+}
+
+.play-btn:hover,
+.join-btn:hover {
+    transform: scale(1.05);
+}
+
+.card-1 {
+    background: linear-gradient(135deg, #ff4e50, #f9d423);
+    color: #000;
+}
+
+.card-2 {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    color: #000;
+}
+
+.card-3 {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+    color: #fff;
+}
+
+.card-4 {
+    background: linear-gradient(135deg, #5ee7df, #b490ca);
+    color: #000;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    max-width: 400px;
+}
+
+.tags {
+    display: flex;
+    gap: 1rem;
+}
+
+.tag {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
