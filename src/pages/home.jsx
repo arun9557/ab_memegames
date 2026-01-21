@@ -7,6 +7,7 @@ import ArenaCard from '../components/home/ArenaCard';
 import LeaderboardCard from '../components/home/LeaderboardCard';
 import NewReleasesCard from '../components/home/NewReleasesCard';
 import CommunityCard from '../components/home/CommunityCard';
+import Footer from '../components/home/Footer';
 
 const Home = () => {
     return (
@@ -46,6 +47,7 @@ const Home = () => {
                     <CommunityCard />
                 </ScrollStackItem>
             </ScrollStack>
+            <Footer />
         </div>
     );
 };
