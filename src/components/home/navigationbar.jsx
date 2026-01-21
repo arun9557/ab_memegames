@@ -10,7 +10,7 @@ const NavigationBar = () => {
 
     return (
         <nav className="custom-navbar">
-            <a href="https://prebuiltui.com" className="nav-logo">
+            <a href="#" className="nav-logo">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="4.706" cy="16" r="4.706" fill="#D9D9D9" />
                     <circle cx="16.001" cy="4.706" r="4.706" fill="#D9D9D9" />
