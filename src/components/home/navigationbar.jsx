@@ -58,7 +58,7 @@ const NavigationBar = () => {
                 <a className="mobile-link" href="#stories">Customer Stories</a>
                 <a className="mobile-link" href="#pricing">Pricing</a>
                 <a className="mobile-link" href="#docs">Docs</a>
-                <button className="btn-contact mobile-btn">Contact</button>
+                <a className="btn-contact mobile-btn" href="https://arunshekhar.me/">Contact</a>
                 <a className="btn-get-started mobile-btn" href="https://meme-games.vercel.app/">Get Started</a>
             </div>
         </nav>
