@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-copyright">
-                <p>&copy; {new Date().getFullYear()} <a href="https://github.com/arun9557">MemeGames</a>. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} <a href="https://github.com/Meme-Games-Org">MemeGames</a>. All rights reserved.</p>
             </div>
         </footer>
     );
