@@ -39,12 +39,12 @@ const NavigationBar = () => {
             </div>
 
             <div className="nav-actions">
-                <button className="btn-contact">
+                <a className="btn-contact" href="https://arunshekhar.me/">
                     Contact
-                </button>
-                <button className="btn-get-started">
+                </a>
+                <a className="btn-get-started" href="https://meme-games.vercel.app/">
                     Get Started
-                </button>
+                </a>
             </div>
 
             <button id="menuToggle" className="mobile-menu-btn" onClick={toggleMenu}>
@@ -59,7 +59,7 @@ const NavigationBar = () => {
                 <a className="mobile-link" href="#pricing">Pricing</a>
                 <a className="mobile-link" href="#docs">Docs</a>
                 <button className="btn-contact mobile-btn">Contact</button>
-                <button className="btn-get-started mobile-btn">Get Started</button>
+                <a className="btn-get-started mobile-btn" href="https://meme-games.vercel.app/">Get Started</a>
             </div>
         </nav>
     );
